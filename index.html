@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+    <!-- Add any other header content or navigation here -->
+  </header>
+
+  <main>
+
+    <aside class="Sitebar">
+        <img src="img/me.jpg" alt="user-photo" width="370" heigts="354">
+        
+
+        <!-- contacts -->
+        
+        <div class="Contacts">
+            <h3 class="sitebar-title">Contacts</h3>
+            <div>
+                <p>
+                    <span class="contact-type">C:</span>
+                     <a href="tel:+380960508959" class="contact-link">0960508959</a> 
+                   </p>
+                <p>
+                    <span class="contact-type">E:</span>
+                      <a href="mailto:melubinets@gmail.com" class="contact-link">melubinets@gmail.com</a> 
+                   </p>
+                
+               
+            </div>
+        </div>
+       
+        
+       
+    </aside>
+
+    <div class="container">
+        <div class="block">
+          <img src="фото1.jpg" alt="Фото 1">
+          <div class="text">Текст 1</div>
+        </div>
+        <div class="block">
+          <img src="фото2.jpg" alt="Фото 2">
+          <div class="text">Текст 2</div>
+        </div>
+        <div class="block">
+          <img src="фото3.jpg" alt="Фото 3">
+          <div class="text">Текст 3</div>
+        </div>
+        <div class="block">
+          <img src="фото4.jpg" alt="Фото 4">
+          <div class="text">Текст 4</div>
+        </div>
+        <div class="block">
+          <img src="фото5.jpg" alt="Фото 5">
+          <div class="text">Текст 5</div>
+        </div>
+        <div class="block">
+          <img src="фото6.jpg" alt="Фото 6">
+          <div class="text">Текст 6</div>
+        </div>
+        <div class="block">
+          <img src="фото7.jpg" alt="Фото 7">
+          <div class="text">Текст 7</div>
+        </div>
+        <div class="block">
+          <img src="фото8.jpg" alt="Фото 8">
+          <div class="text">Текст 8</div>
+        </div>
+      </div>
+      
+      <div class="pagination">
+        <button class="page-btn active" onclick="changePage(1)">1</button>
+        <button class="page-btn" onclick="changePage(2)">2</button>
+        <button class="page-btn" onclick="changePage(3)">3</button>
+      </div>
+    
+      <h1>Сторінка з коментарями</h1>
+
+      <h2>Залишити коментар</h2>
+      <form id="comment-form">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" required><br><br>
+        <label for="content">Коментар:</label>
+        <textarea id="content" rows="4" required></textarea><br><br>
+        <input type="submit" value="Відправити коментар">
+      </form>
+    
+      <h2>Коментарі</h2>
+      <div id="comments-container">
+        <!-- Коментарі будуть вставлені тут -->
+      </div>
+
+  </main>
+
+  <footer>
+    &copy; 2023 My Website. All rights reserved.
+    <!-- Add any additional footer content or links here -->
+  </footer>
+</body>
+</html>
+
