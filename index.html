@@ -8,38 +8,27 @@
   <script src="index.js"></script>
 </head>
 <body>
+
+
   <header>
     <h1>My Website</h1>
-    <!-- Add any other header content or navigation here -->
+   
+<div class="base">
+  <div>
+    <a img src="img/me.jpg" alt="photo" width="40" heigts="40"></a>
+    <a href="tel:+380960508959" class="contact-link">number</a>
+    <a href="mailto:melubinets@gmail.com" class="contact-link">gmail</a>
+  </div>
+  
+      <div class="langbutton"   id="language-buttons">
+        <button class="language-button" data-lang="uk">UA</button>
+        <button class="language-button" data-lang="en">EN</button> 
+      </div>
+</div>
+
   </header>
 
   <main>
-
-    <aside class="Sitebar">
-        <img src="img/me.jpg" alt="user-photo" width="370" heigts="354">
-        
-
-        <!-- contacts -->
-        
-        <div class="Contacts">
-            <h3 class="sitebar-title">Contacts</h3>
-            <div>
-                <p>
-                    <span class="contact-type">C:</span>
-                     <a href="tel:+380960508959" class="contact-link">0960508959</a> 
-                   </p>
-                <p>
-                    <span class="contact-type">E:</span>
-                      <a href="mailto:melubinets@gmail.com" class="contact-link">melubinets@gmail.com</a> 
-                   </p>
-                
-               
-            </div>
-        </div>
-       
-        
-       
-    </aside>
 
     <div class="container">
         <div class="block">
@@ -81,29 +70,72 @@
         <button class="page-btn" onclick="changePage(2)">2</button>
         <button class="page-btn" onclick="changePage(3)">3</button>
       </div>
-    
-      <h1>Сторінка з коментарями</h1>
 
-      <h2>Залишити коментар</h2>
-      <form id="comment-form">
-        <label for="name">Ім'я:</label>
-        <input type="text" id="name" required><br><br>
-        <label for="content">Коментар:</label>
-        <textarea id="content" rows="4" required></textarea><br><br>
-        <input type="submit" value="Відправити коментар">
-      </form>
-    
-      <h2>Коментарі</h2>
-      <div id="comments-container">
-        <!-- Коментарі будуть вставлені тут -->
-      </div>
+     <div class="div-about">
+      <ul class="about">
+        <li>
 
+        </li>
+        <li>
+
+        </li>
+        <li>
+
+        </li>
+      </ul>
+     </div>
+         
+     <div class="div-about">
+      <ul class="about">
+        <li>
+
+        </li>
+        <li>
+
+        </li>
+        <li>
+
+        </li>
+      </ul>
+     </div>
+
+     <div class="div-about">
+      <ul class="about">
+        <li>
+
+        </li>
+        <li>
+
+        </li>
+        <li>
+
+        </li>
+      </ul>
+     </div>
+      <!-- Add any additional footer content or links here -->
+    <div class="coments">
+      <h2>Сторінка з коментарями</h2>
+
+<form id="comment-form">
+  <label for="name">Ім'я:</label>
+  <input type="text" id="name" required><br><br>
+  <label for="content">Коментар:</label>
+  <textarea id="content" rows="4" required></textarea><br><br>
+  <input type="submit" value="Відправити коментар">
+</form>
+
+<div id="comments-container">
+  <!-- Коментарі будуть вставлені тут -->
+</div>
   </main>
 
   <footer>
     &copy; 2023 My Website. All rights reserved.
-    <!-- Add any additional footer content or links here -->
+   
   </footer>
+
+
+  
 </body>
 </html>
 
