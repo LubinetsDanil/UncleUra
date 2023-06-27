@@ -1,4 +1,22 @@
-<script>
+
+function makeCall() {
+  var currentTime = new Date();
+  var currentHour = currentTime.getHours();
+
+  if (currentHour >= 7 && currentHour < 19) {
+    // Виконати дії для дозволу на дзвінок
+    alert("Можете здійснити дзвінок!");
+    // Тут можна реалізувати додаткову логіку для дзвінка
+  } else {
+    // Виконати дії для заборони дзвінка
+    alert("Дзвінки можливі лише з 7:00 до 19:00!");
+    // Тут можна реалізувати додаткову логіку для заборони дзвінка
+  }
+}
+
+
+
+
   document.getElementById("comment-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Перешкоджаємо стандартній поведінці форми
 
@@ -37,6 +55,6 @@
       behavior: 'smooth'
     });
   }
-</script>
+
 
     

@@ -14,13 +14,13 @@
     <h1>My Website</h1>
    
 <div class="base">
-  <div>
+  <div class="first-div">
     <a img src="img/me.jpg" alt="photo" width="40" heigts="40"></a>
-    <a href="tel:+380960508959" class="contact-link">number</a>
+    <a href="tel:+380960508959" class="contact-link">number</a> <button id="call-button" onclick="makeCall()">Телефонувати</button>
     <a href="mailto:melubinets@gmail.com" class="contact-link">gmail</a>
   </div>
   
-      <div class="langbutton"   id="language-buttons">
+      <div class="langbutton first-div"   id="language-buttons">
         <button class="language-button" data-lang="uk">UA</button>
         <button class="language-button" data-lang="en">EN</button> 
       </div>
@@ -71,30 +71,20 @@
         <button class="page-btn" onclick="changePage(3)">3</button>
       </div>
 
+      <div>
+        <img class="photo" src="img/ura.jpg" alt="Boss">
+      </div>
+
      <div class="div-about">
       <ul class="about">
         <li>
-
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, placeat?
         </li>
         <li>
-
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, placeat?
         </li>
         <li>
-
-        </li>
-      </ul>
-     </div>
-         
-     <div class="div-about">
-      <ul class="about">
-        <li>
-
-        </li>
-        <li>
-
-        </li>
-        <li>
-
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, placeat?
         </li>
       </ul>
      </div>
@@ -102,19 +92,21 @@
      <div class="div-about">
       <ul class="about">
         <li>
-
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, placeat?
         </li>
         <li>
-
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, placeat?
         </li>
         <li>
-
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, placeat?
         </li>
       </ul>
      </div>
       <!-- Add any additional footer content or links here -->
-    <div class="coments">
-      <h2>Сторінка з коментарями</h2>
+   
+   <div class="coments-div">
+      <div class="coments">
+      <h2 class="text-com">Сторінка з коментарями</h2>
 
 <form id="comment-form">
   <label for="name">Ім'я:</label>
@@ -126,6 +118,7 @@
 
 <div id="comments-container">
   <!-- Коментарі будуть вставлені тут -->
+</div>
 </div>
   </main>
 

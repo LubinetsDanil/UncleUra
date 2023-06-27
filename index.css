@@ -4,15 +4,30 @@
       color: #fff;
       padding: 20px;
       text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      
     }
 
+    .base {
+      white-space: nowrap;
+      display: flex;
+    }
 
+    .first-div {
+      flex: 1;
+    }
 
+.photo {
+  border-radius: 35px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
     
 
     main {
       padding: 20px;
       /* Add any additional styles for the main content */
+      
     }
 
     .container {
@@ -27,7 +42,7 @@
       height: 200px;
       margin-right: 20px;
       background-color: lightgray;
-      border-radius: 5px; /* Заокруглені кути на 5px */
+      border-radius: 25px; /* Заокруглені кути на 5px */
       position: relative;
       transition: transform 0.3s; /* Плавна анімація зміни розміру блока */
     }
@@ -70,12 +85,19 @@
       color: white;
     }
 
+    .coments-div {
+background-image: url(img/text.avif);
+background-size: cover;
+    }
+
     .comment {
       margin-bottom: 10px;
     }
 
 
-
+.text-com {
+  text-align: center;
+}
 
 
    main {
@@ -91,6 +113,7 @@
     flex-wrap: wrap; /* Поле для імені, поле для коментаря і кнопка відправки коментаря у одному рядку */
     justify-content: center; /* Вирівнювання по центру по горизонталі */
     gap: 10px; /* Проміжок між елементами форми */
+    
 
     
   }
@@ -98,14 +121,17 @@
   #name,
   #content {
     width: 200px; /* Задаємо фіксовану ширину для полів */
+    border-radius: 5px
   }
 
   #content {
     flex-grow: 1; /* Розтягуємо поле для коментаря на всю доступну ширину */
+    border-radius: 5px
   }
 
   #comment-form input[type="submit"] {
     align-self: flex-end; /* Вирівнювання кнопки вправо */
+    border-radius: 5px
   }
 
   footer {
@@ -117,11 +143,19 @@
       bottom: 0;
       left: 0;
       width: 100%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
-.base {
-  white-space: nowrap;
+.div-about {
+  background-color: #333;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.about {
+  color: #fff;
+}
     
   
